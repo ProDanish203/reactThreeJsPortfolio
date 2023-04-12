@@ -1,0 +1,17 @@
+//To use Three.js
+@react-three/fiber
+@react-three/drei
+react-three
+
+
+//To make a 3D model file
+npm i -g gltf-pipeline
+gltf-pipeline -i scene.gltf -o shoe.gltf -d
+
+//To turn the gltf file into jsx 
+gltfjsx@6.1.4
+npx gltfjsx model.gltf --transform
+
+
+//To change the rights of PC system
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
